@@ -1,7 +1,6 @@
 /target
 **/*.rs.bk
 *.wasm
-.env
 *.log
 
 # Local testing scripts
@@ -15,6 +14,7 @@ Makefile
 **/test_snapshots/**/*.rs
 **/test_snapshots/**/*.json
 
+temp_auto_push.bat
 # Documentation files
 !docs/adr-admin-role.md
 !docs/rate-limiting-design.md
@@ -32,3 +32,7 @@ BM/
 
 # Python cache
 __pycache__/
+.gitignore
+branch_structure.json
+config.bat
+node_modules
